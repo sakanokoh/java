@@ -12,6 +12,7 @@ public class QueueEv {
    RandomVariateGen genArr;
    RandomVariateGen genServ;
    LinkedList<Customer> waitList = new LinkedList<Customer> ();
+   //LinkedList<Customer> waitList2 = new LinkedList<Customer> ();
    LinkedList<Customer> servList = new LinkedList<Customer> ();
    Tally custWaits     = new Tally ("Waiting times");
    Accumulate totWait  = new Accumulate ("Size of queue");
